@@ -1,3 +1,5 @@
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style type='text/css'>
 /*<![CDATA[*/
 .btn{padding:10px 16px;margin:0;font-size:16px;line-height:1.3333333;border-radius:6px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;font-weight:500;text-decoration:none;display:inline-block}
 .btn:active:focus,.btn:focus{outline:0}
@@ -13,7 +15,9 @@
 #cara_belanja a{margin-bottom:10px;margin-right:10px}
 #cara_belanja svg{width:24px;height:24px;vertical-align:-15%;}
 /*]]>*/
+</style>
 </b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div id='cara_belanja'>
 <span id='carabelanja'/>
   <h4>Kontak Kami</h4>
@@ -25,3 +29,4 @@
     <path d='M17.25,18H6.75V4H17.25M14,21H10V20H14M16,1H8A3,3 0 0,0 5,4V20A3,3 0 0,0 8,23H16A3,3 0 0,0 19,20V4A3,3 0 0,0 16,1Z' fill='#fff'/>
 </svg> SMS Sekarang</a>
   </div>
+</b:if>
